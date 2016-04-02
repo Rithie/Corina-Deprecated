@@ -1,4 +1,4 @@
-Corina - Spart Studios
+Corina - Sparta Studios
 ==============
 
 Will become a sub heading
