@@ -1,0 +1,289 @@
+fileFormatVersion: 2
+guid: c7e9edd2cb0f26b4e9e9edf72030522e
+timeCreated: 1459541703
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BgMountainsFade
+    21300002: Ground
+    21300004: Platform1
+    21300006: Platform2
+    21300008: EnvironmentSpriteAtlas_4
+    21300010: BgMountains2
+    21300012: BgMountains1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 15
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BgMountainsFade
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 282
+        width: 800
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 373, y: 18.5}
+        - {x: 355, y: 21.5}
+        - {x: 317, y: 19.5}
+        - {x: 280, y: 4.5}
+        - {x: 251, y: 32.5}
+        - {x: 225, y: 47.5}
+        - {x: 189, y: 56.5}
+        - {x: 149, y: 54.5}
+        - {x: 118, y: 46.5}
+        - {x: 88, y: 28.5}
+        - {x: 68, y: 7.5}
+        - {x: 43, y: 3.5}
+        - {x: 20, y: 11.5}
+        - {x: -25, y: 6.5}
+        - {x: -38, y: -1.5}
+        - {x: -46, y: 11.5}
+        - {x: -58, y: 28.5}
+        - {x: -91, y: 59.5}
+        - {x: -118, y: 74.5}
+        - {x: -136, y: 80.5}
+        - {x: -149, y: 84.5}
+        - {x: -241, y: 84.5}
+        - {x: -251, y: 81.5}
+        - {x: -264, y: 76.5}
+        - {x: -295, y: 60.5}
+        - {x: -312, y: 48.5}
+        - {x: -328, y: 31.5}
+        - {x: -343, y: 12.5}
+        - {x: -350, y: 1.5}
+        - {x: -359, y: -17.5}
+        - {x: -364, y: -30.5}
+        - {x: -376, y: -15.5}
+        - {x: -397, y: 3.5}
+        - {x: -400, y: 2.5}
+        - {x: -400, y: -84.5}
+        - {x: 400, y: -84.5}
+        - {x: 400, y: 5.5}
+        - {x: 399, y: 6.5}
+    - name: Ground
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 800
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -400, y: 43}
+        - {x: -400, y: -43}
+        - {x: 400, y: -43}
+        - {x: 400, y: 43}
+    - name: Platform1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 12
+        width: 135
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37.5, y: 12}
+        - {x: 38.5, y: 16}
+        - {x: 67.5, y: 46}
+        - {x: 67.5, y: 68}
+        - {x: 64.5, y: 71}
+        - {x: -67.5, y: 71}
+        - {x: -67.5, y: -3}
+        - {x: -35.5, y: -71}
+        - {x: 13.5, y: -71}
+        - {x: 42.5, y: -4}
+        - {x: 38.5, y: 6}
+        - {x: 33.5, y: 5}
+    - name: Platform2
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 11
+        width: 169
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: 26.5}
+        - {x: 34.5, y: 32.5}
+        - {x: 66.5, y: 19.5}
+        - {x: 84.5, y: 35.5}
+        - {x: 84.5, y: 71.5}
+        - {x: -84.5, y: 71.5}
+        - {x: -84.5, y: 43.5}
+        - {x: -15.5, y: 38.5}
+        - {x: -10.5, y: 33.5}
+        - {x: -19.5, y: 36.5}
+        - {x: -26.5, y: 38.5}
+        - {x: -37.5, y: 28.5}
+        - {x: -44.5, y: 6.5}
+        - {x: -24.5, y: -71.5}
+        - {x: 6.5, y: -71.5}
+        - {x: 43.5, y: -38.5}
+        - {x: 62.5, y: 11.5}
+        - {x: 32.5, y: 28.5}
+    - name: EnvironmentSpriteAtlas_4
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 164
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BgMountains2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 454
+        width: 800
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 337, y: 20}
+        - {x: 318, y: 16}
+        - {x: 306, y: 13}
+        - {x: 283, y: -1}
+        - {x: 266, y: 18}
+        - {x: 243, y: 36}
+        - {x: 225, y: 45}
+        - {x: 189, y: 55}
+        - {x: 149, y: 53}
+        - {x: 132, y: 49}
+        - {x: 104, y: 37}
+        - {x: 85, y: 22}
+        - {x: 64, y: 0}
+        - {x: 59, y: -7}
+        - {x: 45, y: 1}
+        - {x: 18, y: 8}
+        - {x: -6, y: 8}
+        - {x: -32, y: 1}
+        - {x: -44, y: 5}
+        - {x: -55, y: 22}
+        - {x: -85, y: 54}
+        - {x: -126, y: 76}
+        - {x: -143, y: 82}
+        - {x: -157, y: 85}
+        - {x: -235, y: 85}
+        - {x: -259, y: 79}
+        - {x: -287, y: 66}
+        - {x: -320, y: 40}
+        - {x: -337, y: 19}
+        - {x: -359, y: -16}
+        - {x: -365, y: -36}
+        - {x: -377, y: -16}
+        - {x: -395, y: -1}
+        - {x: -400, y: 1}
+        - {x: -400, y: -85}
+        - {x: 400, y: -85}
+        - {x: 400, y: 4}
+        - {x: 372, y: 19}
+    - name: BgMountains1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 626
+        width: 800
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 337, y: 20}
+        - {x: 318, y: 16}
+        - {x: 306, y: 13}
+        - {x: 283, y: -1}
+        - {x: 266, y: 18}
+        - {x: 243, y: 36}
+        - {x: 225, y: 45}
+        - {x: 189, y: 55}
+        - {x: 149, y: 53}
+        - {x: 132, y: 49}
+        - {x: 104, y: 37}
+        - {x: 85, y: 22}
+        - {x: 64, y: 0}
+        - {x: 45, y: 1}
+        - {x: 18, y: 8}
+        - {x: -6, y: 8}
+        - {x: -32, y: 1}
+        - {x: -44, y: 5}
+        - {x: -56, y: 22}
+        - {x: -72, y: 41}
+        - {x: -108, y: 69}
+        - {x: -142, y: 82}
+        - {x: -161, y: 86}
+        - {x: -229, y: 86}
+        - {x: -247, y: 82}
+        - {x: -264, y: 76}
+        - {x: -286, y: 65}
+        - {x: -320, y: 40}
+        - {x: -337, y: 19}
+        - {x: -359, y: -16}
+        - {x: -365, y: -36}
+        - {x: -377, y: -16}
+        - {x: -395, y: -1}
+        - {x: -400, y: 1}
+        - {x: -400, y: -86}
+        - {x: 400, y: -86}
+        - {x: 400, y: 4}
+        - {x: 372, y: 19}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
