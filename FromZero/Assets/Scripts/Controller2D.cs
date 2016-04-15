@@ -19,12 +19,21 @@ public class Controller2D : MonoBehaviour {
     BoxCollider2D collider;
     RaycastOrigins raycastOrigins;
 
+    private Animator animator;
+
     public CollisionInfo collisions;
 
 	void Start () {
         collider = GetComponent<BoxCollider2D>();
+        animator = GetComponent<Animator>();
         CalculateRaySpacing();
+        //FaceDir é 1 pra esquerda e -1 pra direita
         collisions.faceDir = 1;
+    }
+
+    void Update()
+    {
+        animator.SetBool("onAir", !collisions.below);
     }
 
     public void Move(Vector3 velocity)
@@ -35,6 +44,11 @@ public class Controller2D : MonoBehaviour {
         if (velocity.x != 0)
         {
             collisions.faceDir = (int)Mathf.Sign(velocity.x);
+            //Animation("Walk"), Scale.x((int)Mathf.Sign(velocity.x))
+            Vector2 scale = transform.localScale;
+            scale.x = collisions.faceDir;
+            transform.localScale = scale;
+            animator.SetFloat("speed", Mathf.Abs(velocity.x));
         }
         if(velocity.y < 0)
         {
@@ -119,6 +133,8 @@ public class Controller2D : MonoBehaviour {
             {
                 velocity.y = (hit.distance - skinWidth) * directionY;
                 rayLength = hit.distance;
+
+                animator.SetBool("onAir", false);
 
                 if (collisions.climbingSlope)
                 {

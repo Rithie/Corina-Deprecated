@@ -4,6 +4,13 @@ using System.Collections;
 
 public class Player : MonoBehaviour {
 
+    [System.Serializable]
+    public class PlayerStats {
+        public int health = 100;
+    }
+
+    public PlayerStats playerStats = new PlayerStats();
+
     public Vector2 wallJumpClimb;
     public Vector2 wallJumpOff;
     public Vector2 wallLeap;
@@ -13,7 +20,7 @@ public class Player : MonoBehaviour {
     public float timeToJumpApex = .4f;
     float accelerationTimeAirbourne = .2f;
     float accelerationTimeGrounded = .1f;
-    float moveSpeed = 10;
+    public float moveSpeed = 30;
 
     public float wallSpeedMax = 5;
     public float wallStickTime = .25f;
@@ -39,6 +46,12 @@ public class Player : MonoBehaviour {
 
     void Update()
     {
+        //CÓDIGO INÚTIL AQUI PRA QUANDO O PLAYER CAIR
+        if (transform.position.y <= -20)
+        {
+            DamagePlayer(9999);
+        }
+
         Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         int wallDirX = (controller.collisions.left) ? -1 : 1;
 
@@ -110,8 +123,18 @@ public class Player : MonoBehaviour {
                 velocity.y = minJumpVelocity;
             }
 
+
         }
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
+    }
+
+    public void DamagePlayer(int damage)
+    {
+        playerStats.health -= damage;
+        if (playerStats.health <= 0)
+        {
+            GameMaster.KillPlayer(this);
+        }
     }
 }
